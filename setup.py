@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
   name='facemorpher',
-  version='2.0.0',
+  version='1!2.0.0',
   author='Alyssa Quek',
   author_email='alyssaquek@gmail.com',
   description=('Warp, morph and average human faces!'),
@@ -11,7 +11,8 @@ setup(
     'data/*.xml',
     'bin/stasm_util_osx_cv2',
     'bin/stasm_util_osx_cv3',
-    'bin/stasm_util_linux_cv2'
+    'bin/stasm_util_linux_cv2',
+    'bin/stasm_util_linux_cv3',
   ]},
   data_files=[('readme', ['README.rst'])],
   keywords='face morphing, averaging, warping',
